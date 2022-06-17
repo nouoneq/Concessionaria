@@ -1,4 +1,4 @@
-package Concessionaria;
+package Concessionaria.java.Concessionaria;
 
 public class Seller {
     private String name;
