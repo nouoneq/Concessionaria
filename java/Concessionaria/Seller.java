@@ -1,10 +1,16 @@
 package Concessionaria.java.Concessionaria;
 
-public class Seller {
-    private String name;
+public class Seller extends Person {
+    private int anosExp;
 
-    // GETTER
-    public String getName(){
-        return name;
+
+    // GETTERs
+     public int getAnosExp(){
+        return anosExp;
+    }
+
+    // SETTERs
+    public void setAnosExp(int anosExp){
+        this.anosExp = anosExp;
     }
 }
