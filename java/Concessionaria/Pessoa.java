@@ -1,13 +1,13 @@
 package Concessionaria.java.Concessionaria;
 
 public class Pessoa {
-    private String name;
+    private String nome;
     private String rg;
     private String telefone;
 
     // GETTERs
-    public String getName(){
-        return name;
+    public String getNome(){
+        return nome;
     }
     public String getRg(){
         return rg;
@@ -17,8 +17,8 @@ public class Pessoa {
     }
 
     // SETTERs
-    public void setName(String name){
-        this.name = name;
+    public void setNome(String nome){
+        this.nome = nome;
     }
     public void setRg(String rg){
         this.rg = rg;

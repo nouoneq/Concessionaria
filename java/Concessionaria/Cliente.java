@@ -13,8 +13,8 @@ public class Cliente extends Pessoa {
         this.endereco = endereco;
     }
 
-    public void consultaCliente(String name){
-        System.out.printf("Nome: %s\n Endereco: %s\n",getName(), endereco);
+    public void consultaCliente(){
+        System.out.printf("Nome: %s\nEndereco: %s\nTelefone: %s\nRG: %s\n",getNome(), getEndereco(), getTelefone(), getRg());
     }
 
 
