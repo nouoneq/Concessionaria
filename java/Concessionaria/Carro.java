@@ -1,6 +1,7 @@
 package Concessionaria.java.Concessionaria;
 
-public class Car {
+
+public class Carro {
     private int chassi;
     private int ano;
     private String placa;
@@ -48,4 +49,7 @@ public class Car {
     public void setCor(String cor) {
         this.cor = cor;
     }
+
+
+
 }

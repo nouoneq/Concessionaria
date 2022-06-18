@@ -1,6 +1,6 @@
 package Concessionaria.java.Concessionaria;
 
-public class Person {
+public class Pessoa {
     private String name;
     private String rg;
     private String telefone;

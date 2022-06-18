@@ -1,6 +1,6 @@
 package Concessionaria.java.Concessionaria;
 
-public class Sale {
+public class Venda {
     private String numNota;
     private String formaPagam;
     private double valorTotal;

@@ -1,6 +1,6 @@
 package Concessionaria.java.Concessionaria;
 
-public class Client extends Person{
+public class Cliente extends Pessoa {
     private String endereco;
 
     // GETTERs
@@ -13,8 +13,8 @@ public class Client extends Person{
         this.endereco = endereco;
     }
 
-    public void consultaCliente(){
-
+    public void consultaCliente(String name){
+        System.out.printf("Nome: %s\n Endereco: %s\n",getName(), endereco);
     }
 
 

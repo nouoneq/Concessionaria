@@ -1,6 +1,6 @@
 package Concessionaria.java.Concessionaria;
 
-public class Carmaker {
+public class Montadora {
     private String cnpj;
     private String name;
     private String endereco;

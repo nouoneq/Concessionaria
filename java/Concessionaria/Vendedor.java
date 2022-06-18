@@ -1,6 +1,6 @@
 package Concessionaria.java.Concessionaria;
 
-public class Seller extends Person {
+public class Vendedor extends Pessoa {
     private int anosExp;
 
 
